@@ -15,8 +15,8 @@ const Product = sequelizeConnection.define("Product", {
         type: DataTypes.STRING,
         allowNull: false
     },
-    stock: {            
-        type: DataTypes.INTEGER,
+    description: {            
+        type: DataTypes.STRING,
         allowNull: false
     },
 })
